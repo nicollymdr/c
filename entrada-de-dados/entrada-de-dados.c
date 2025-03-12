@@ -5,7 +5,7 @@ int main(){
 	int idade;
 	float peso;
 	
-	printf("Digite uma idade: \n");
+	printf("Digite sua idade: \n");
 	scanf("%d", &idade);
 	
 	printf("Digite seu peso: \n");
@@ -13,6 +13,8 @@ int main(){
 	
 	printf("Sua idade: %d\n", idade);
 	printf("Seu peso: %.1f\n", peso);
+	
+	system("pause");
 	
 	return 0;
 }
