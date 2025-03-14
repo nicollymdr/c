@@ -8,7 +8,7 @@ int main(){
 	scanf("%f", &n);
 	
 	if (n >= 4.0 && n < 7.0){
-		printf("Tem direito a reprova!\n");
+		printf("Tem direito a recuperacao!\n");
 	}
 	
 	system("pause");	
